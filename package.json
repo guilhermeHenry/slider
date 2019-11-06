@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "guilhermeHenry",
   "license": "ISC",
   "dependencies": {
     "breakpoints": "git+https://github.com/guilhermeHenry/breakpoints.git",
