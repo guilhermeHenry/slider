@@ -1,0 +1,16 @@
+{
+  "name": "slider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "breakpoints": "git+https://github.com/guilhermeHenry/breakpoints.git",
+    "config": "git+https://github.com/guilhermeHenry/config.git"
+  }
+}
