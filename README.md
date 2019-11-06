@@ -12,7 +12,7 @@ new SL({
 });
 ```
 
-##Item
+## Item
 ```javascript
 e.push({
 	phrase: 'Horário de verão?',
