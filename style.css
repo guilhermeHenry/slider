@@ -3,6 +3,8 @@
 	--height: 600px;
 	--middle-w: 480px;
 	--middle-h: 280px;
+	
+	font-family: 'Roboto', sans-serif;
 }
 
 .slider{width: var(--width); height: var(--height); max-width: 100%; position: relative; padding: 0 50px;}

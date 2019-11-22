@@ -32,13 +32,20 @@ let SL = function (conf = null) {
 
 	this.config = new config(conf);
 	this.config.add('items');
-	this.config.add('target');
+	this.config.add('target', function (target) {
+		if (!document.getElementById(target)) {
+			this.msg.push('msg')
+		}
+	});
 	this.config.add('play', false);
 	this.config.add('delay', 0); // ms
 	this.config.add('speed', {min: 100, max: 3500}, true); // ms
 	this.config.add('timing', Array('linear', 'ease', 'ease-in', 'ease-out', 'ease-in-out'));
 	
-	if (this.config.seccess){
+	if (this.config.msg.length > 1){
+		this.config.msg.forEach(msg => console.log(msg));
+	}
+	else {
 		for (let name in this.config.conf){this[name] = this.config.conf[name]}
 		new BP(
 			[200, this.setPages.bind(this, 1, 4)],

@@ -4,15 +4,18 @@
 	<title></title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="../help/oocss.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="node_modules/css-reset/reset.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/oocss/oocss.css">	
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
 <div id="insertSlider"></div>
 
-<script src="./node_modules/config/config.js"></script>
-<script src="./node_modules/breakpoints/breakpoints.js"></script>
+<script src="node_modules/config/config.js"></script>
+<script src="node_modules/breakpoints/breakpoints.js"></script>
 <script src="app.js"></script>
 <script>
 	let e = new Array;
@@ -111,7 +114,7 @@
 	new SL({
 		play: false,
 		speed: 500,
-		target: 'body',
+		target: 'insertSlider1',
 		timing: 'ease',
 		items: e.slice(0, 14)
 	});

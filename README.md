@@ -24,3 +24,7 @@ e.push({
 	background: {path: '../../help/img', img: 'marvel.jpg', y: 'center', x: 'left'}
 });
 ```
+
+## Referências
+[SimpleSlider](https://github.com/michu2k/SimpleSlider)
+[SlidesJS-3](https://github.com/nathansearles/Slides/tree/SlidesJS-3)
