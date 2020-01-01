@@ -1,3 +1,6 @@
+import BP from './node_modules/callpoint/app.js';
+import config from './node_modules/config/app.js';
+
 let SL = function (conf = null) {
 	this.pages    = null;
 	this.maxPages = 8;
@@ -44,8 +47,7 @@ let SL = function (conf = null) {
 	
 	if (this.config.msg.length > 1){
 		this.config.msg.forEach(msg => console.log(msg));
-	}
-	else {
+	} else {
 		for (let name in this.config.conf){this[name] = this.config.conf[name]}
 		new BP(
 			[200, this.setPages.bind(this, 1, 4)],
@@ -345,7 +347,106 @@ SL.prototype.resetAutoplay = function () {clearTimeout(this.timer)}
 
 
 
+let e = new Array;
 
+	e.push({
+		phrase: 'Horário de verão?',
+		title: 'Horário de verão? Como usar hora manual no Android e corrigir erro',
+		subtitle: 'Seguindo um decreto do Governo Federal, o Brasil não terá horário de verão em 2019',
+		href: 'https://www.techtudo.com.br/dicas-e-tutoriais/2019/10/horario-de-verao-como-usar-hora-manual-no-android-e-corrigir-erro.ghtml',
+		author: 'Rodrigo Fernandes',
+		time: '20/10/2019 ás 07h00',
+		background: {path: '../../help/img', img: 'marvel.jpg', y: 'center', x: 'left'}
+	});
+
+	e.push({
+		// phrase: 'Horário de verão?',
+		title: 'Horário de verão? Como usar hora manual no Android e corrigir erro',
+		subtitle: 'Seguindo um decreto do Governo Federal, o Brasil não terá horário de verão em 2019',
+		href: 'https://www.techtudo.com.br/dicas-e-tutoriais/2019/10/horario-de-verao-como-usar-hora-manual-no-android-e-corrigir-erro.ghtml',
+		author: 'Rodrigo Fernandes',
+		time: '20/10/2019 ás 07h00',
+		background: {path: '../../help/img', img: 'marvel.jpg', y: 'center', x: 'left'}
+	});
+
+	e.push({
+		phrase: 'Horário de verão?',
+		title: 'Horário de verão? Como usar hora manual no Android e corrigir erro',
+		subtitle: 'Seguindo um decreto do Governo Federal, o Brasil não terá horário de verão em 2019',
+		href: 'https://www.techtudo.com.br/dicas-e-tutoriais/2019/10/horario-de-verao-como-usar-hora-manual-no-android-e-corrigir-erro.ghtml',
+		author: 'Rodrigo Fernandes',
+		time: '20/10/2019 ás 07h00'
+	});
+
+	e.push({
+		title: 'Horário de verão? Como usar hora manual no Android e corrigir erro',
+		subtitle: 'Seguindo um decreto do Governo Federal, o Brasil não terá horário de verão em 2019',
+		href: 'https://www.techtudo.com.br/dicas-e-tutoriais/2019/10/horario-de-verao-como-usar-hora-manual-no-android-e-corrigir-erro.ghtml',
+		author: 'Rodrigo Fernandes',
+		time: '20/10/2019 ás 07h00'
+	});
+
+	e.push({
+		title: 'Horário de verão? Como usar hora manual no Android e corrigir erro',
+		subtitle: 'Seguindo um decreto do Governo Federal, o Brasil não terá horário de verão em 2019',
+		href: 'https://www.techtudo.com.br/dicas-e-tutoriais/2019/10/horario-de-verao-como-usar-hora-manual-no-android-e-corrigir-erro.ghtml',
+		author: 'Rodrigo Fernandes',
+		time: '20/10/2019 ás 07h00'
+	});
+
+	e.push({
+		// phrase: 'Horário de verão?',
+		title: 'Horário de verão? Como usar hora manual no Android e corrigir erro',
+		subtitle: 'Seguindo um decreto do Governo Federal, o Brasil não terá horário de verão em 2019',
+		href: 'https://www.techtudo.com.br/dicas-e-tutoriais/2019/10/horario-de-verao-como-usar-hora-manual-no-android-e-corrigir-erro.ghtml',
+		author: 'Rodrigo Fernandes',
+		time: '20/10/2019 ás 07h00',
+		background: {path: '../../help/img', img: 'marvel.jpg', y: 'center', x: 'left'}
+	});
+
+	e.push({
+		// phrase: 'Horário de verão?',
+		title: 'Horário de verão? Como usar hora manual no Android e corrigir erro',
+		subtitle: 'Seguindo um decreto do Governo Federal, o Brasil não terá horário de verão em 2019',
+		href: 'https://www.techtudo.com.br/dicas-e-tutoriais/2019/10/horario-de-verao-como-usar-hora-manual-no-android-e-corrigir-erro.ghtml',
+		author: 'Rodrigo Fernandes',
+		time: '20/10/2019 ás 07h00',
+		background: {path: '../../help/img', img: 'marvel.jpg', y: 'center', x: 'left'}
+	});
+
+	e.push({
+		// phrase: 'Horário de verão?',
+		title: 'Horário de verão? Como usar hora manual no Android e corrigir erro',
+		subtitle: 'Seguindo um decreto do Governo Federal, o Brasil não terá horário de verão em 2019',
+		href: 'https://www.techtudo.com.br/dicas-e-tutoriais/2019/10/horario-de-verao-como-usar-hora-manual-no-android-e-corrigir-erro.ghtml',
+		author: 'Rodrigo Fernandes',
+		time: '20/10/2019 ás 07h00'
+	});
+
+	e.push({
+		title: 'Horário de verão? Como usar hora manual no Android e corrigir erro',
+		subtitle: 'Seguindo um decreto do Governo Federal, o Brasil não terá horário de verão em 2019',
+		href: 'https://www.techtudo.com.br/dicas-e-tutoriais/2019/10/horario-de-verao-como-usar-hora-manual-no-android-e-corrigir-erro.ghtml',
+		author: 'Rodrigo Fernandes',
+		time: '20/10/2019 ás 07h00'
+	});
+
+	e.push({
+		title: 'Horário de verão? Como usar hora manual no Android e corrigir erro',
+		subtitle: 'Seguindo um decreto do Governo Federal, o Brasil não terá horário de verão em 2019',
+		href: 'https://www.techtudo.com.br/dicas-e-tutoriais/2019/10/horario-de-verao-como-usar-hora-manual-no-android-e-corrigir-erro.ghtml',
+		author: 'Rodrigo Fernandes',
+		time: '20/10/2019 ás 07h00'
+	});
+	
+
+	new SL({
+		play: false,
+		speed: 500,
+		target: 'insertSlider1',
+		timing: 'ease',
+		items: e.slice(0, 14)
+	})
 
 
 

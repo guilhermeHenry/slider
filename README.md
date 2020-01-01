@@ -26,5 +26,5 @@ e.push({
 ```
 
 ## Referências
-[SimpleSlider](https://github.com/michu2k/SimpleSlider)
+[SimpleSlider](https://github.com/michu2k/SimpleSlider)  
 [SlidesJS-3](https://github.com/nathansearles/Slides/tree/SlidesJS-3)

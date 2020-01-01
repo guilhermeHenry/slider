@@ -10,7 +10,7 @@
   "author": "guilhermeHenry",
   "license": "ISC",
   "dependencies": {
-    "breakpoints": "git+https://github.com/guilhermeHenry/breakpoints.git",
+    "callpoint": "^1.0.1",
     "config": "git+https://github.com/guilhermeHenry/config.git",
     "css-reset": "git+https://github.com/guilhermeHenry/css-reset.git",
     "oocss": "git+https://github.com/guilhermeHenry/oocss.git"
