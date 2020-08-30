@@ -2,17 +2,15 @@
   "name": "slider",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "css": "sass --watch src/scss:demo/css --no-source-map",
+    "dev": "npx webpack -d --watch"
   },
   "keywords": [],
   "author": "guilhermeHenry",
   "license": "ISC",
   "dependencies": {
-    "callpoint": "^1.0.1",
-    "config": "git+https://github.com/guilhermeHenry/config.git",
-    "css-reset": "git+https://github.com/guilhermeHenry/css-reset.git",
-    "oocss": "git+https://github.com/guilhermeHenry/oocss.git"
+    "apps-help": "^1.0.1"
   }
 }

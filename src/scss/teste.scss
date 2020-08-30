@@ -1,3 +1,5 @@
+
+
 .slider{
 	--width: 1200px;
 	--height: 600px;
@@ -5,37 +7,18 @@
 	--middle-h: 280px;
 	
 	font-family: 'Roboto', sans-serif;
+
+	width: var(--width); height: var(--height); max-width: 100%; position: relative; padding: 0 50px;
+
+	margin: 50px auto;
+
+	
+
+	/* ------ARTICLE-------- */
+	
+
+	
 }
-
-.slider{width: var(--width); height: var(--height); max-width: 100%; position: relative; padding: 0 50px;}
-.slider{margin: 50px auto;}
-
-.slider-container{
-	float: left;
-	width: 100%;
-	height: 100%; 
-	/*overflow: hidden;*/
-	position: relative;
-}
-
-.slider-box{
-	left: 0;
-	width: 100%;
-	height: 100%;
-	position: absolute; 
-	transition-property: left;
-}
-
-/* ------ARTICLE-------- */
-.slider article{
-	/*display: none;*/
-	overflow: hidden; position: relative; float: left;
-	border: 1px solid #ddd; background-color: white;
-}
-
-.slider article a{float: left; width: 100%; height: 100%; display: flex; color: inherit;}
-.slider article header{float: left; width: 100%;}
-.slider article .center{display: block; margin: auto; padding: 0 40px;}
 
 @media(min-width: 1001px){
 	/* Green - 3 blocos - 1 bloco vermelho e o restante verde*/
@@ -115,7 +98,6 @@
 .slider article:hover hr + a header{padding: 40px 30px;}
 
 /*ARROWS*/
-.slider .arrows{display: ;}
 .slider .arrows hr{
 	top: 50%;
 	border: 0; 
@@ -129,8 +111,8 @@
 	background-position-y: center;
 	background-repeat: no-repeat;
 }
-.slider .arrow-left{float: left; background-image: url('./left.png'); background-position-x: right; left: -0;}
-.slider .arrow-right{float: right; background-image: url('./right.png'); background-position-x: left; right: -0;}
+.slider .arrow-left{float: left; background-image: url('../img/left.png'); background-position-x: right; left: -0;}
+.slider .arrow-right{float: right; background-image: url('../img/right.png'); background-position-x: left; right: -0;}
 .slider .slider-container:hover + .arrows hr{background-size: 50px; opacity: 1; background-position-x: center;}
 .slider .arrows:hover hr{background-size: 50px; opacity: 1; background-position-x: center;}
 .slider .arrow:active{background-size: 45px;}
@@ -146,228 +128,3 @@
 	.slider .arrows{display: none;}
 	.slider article{width: 100%; height: 100%;}
 }
-
-
-
-
-
-
-
-
-
-/*https://stackoverflow.com/questions/31507128/flex-box-columns-with-multiple-children*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
