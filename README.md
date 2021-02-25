@@ -1,6 +1,17 @@
 # SliderShow
 SliderShow
 
+## RWD
+
+- **DESKTOP**
+![Desktop](./screenshots/desktop.png)
+
+- **TABLET**
+![Desktop](./screenshots/tablet.png)
+
+- **MOBILE**
+![Desktop](./screenshots/mobile.png)
+
 ## EXEMPLE
 ```javascript
 new SL({
